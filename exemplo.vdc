@@ -1,0 +1,16 @@
+-- exemplo.vdc
+-- Horta escolar automática - VerdiCode
+
+sustentar
+    -- Simula leitura do sensor de umidade do solo
+    local umidade = 26
+
+    -- Se o solo estiver seco, liga a bomba
+    monitorar umidade < 35 então
+        eco_registrar("Solo seco! Ligando a bomba por 5 segundos")
+        eco_registrar("Irrigação automática ativada")
+    senão
+        eco_registrar("Solo úmido - tudo certo na horta")
+    fim
+
+fim
