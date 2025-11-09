@@ -3,7 +3,7 @@
 - PARA TESTAR O VerdiCode é necessário ter o Lua instalado.
 - NADA ALÉM DISSO
 
-##Tutotial de instalação:
+## Tutotial de instalação:
 
 1- Abra o PowerShell como Administrador}
 
