@@ -5,7 +5,7 @@
 
 ## Tutotial de instalação:
 
-1- Abra o PowerShell como Administrador}
+1- Abra o PowerShell como Administrador
 
 2- Instale o Chocolatey (gerenciador de pacotes)
 
@@ -15,7 +15,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 
 4- APÓS CONCLUÍDO, FECHE E ABRA O POWERSHELL NOVAMENTE COMO ADM E COLE O SEGUINTE COMANDO NOVAMENTE:
 
-choco install lua
+choco install lua -y
 
 5- APÓS CONCLUIR, ABRA O CMD E COLE O LINK ABAIXO PARA VER SE BAIXOU:
 
